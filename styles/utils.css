@@ -1,0 +1,115 @@
+.mainContainer {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+  /* color: #006699; */
+}
+.paT {
+  padding: 4rem 0rem;
+}
+.paL {
+  padding: 0 4rem;
+}
+.font {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+
+.shadow {
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.6);
+}
+.flexCenter {
+  justify-content: center;
+  align-items: center;
+}
+.direction {
+  flex-direction: column;
+}
+
+.btn {
+  /* background-color: transparent; */
+  /* background-color: teal; */
+  padding: 0.8rem 3.2rem;
+  /* color: #ffff; */
+  cursor: pointer;
+  margin: 6px 0;
+  /* border-radius: .2rem; */
+  border: 0.4px solid black;
+}
+.btn:hover {
+  background-color: darkblue;
+  color: #fff !important;
+  transition: 0.5s ease-in-out;
+}
+.btn:hover a {
+  /* background-color: darkblue; */
+  color: #fff !important;
+  /* transition: 0.5s ease-in-out; */
+}
+.faT {
+  color: teal;
+}
+.faR {
+  color: #e93001;
+}
+.faB {
+  color: #0066ff;
+}
+.faG {
+  color: #009900;
+}
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.gap {
+  gap: 1rem;
+}
+.center {
+  text-align: center;
+}
+.mT {
+  margin-top: 2rem;
+}
+.mB {
+  margin-bottom: 2rem;
+}
+.m {
+  margin: 2rem 0;
+}
+.input {
+  border: 0.2px solid black;
+  padding: 0.4rem 2rem;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.label {
+  border: 2px solid black;
+  padding: 2rem 3rem;
+  margin: 1rem 0;
+}
+input {
+  border: none;
+  outline: none;
+}
+.border {
+  border: 0.4px solid black;
+}
+button {
+  outline: none;
+  border: none;
+}
+section {
+  /* margin-top: 23px; */
+  /* width: 100%; */
+  /* position: absolute; */
+  /* top: 50px; */
+}
